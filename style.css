@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1E1E1E;
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.avatar-container img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%; /* Исправленная формула для круглого аватара */
+    margin-right: 10px;
+}
+
+header p {
+    margin: 0;
+    color: #CCCCCC; /* Изменен цвет текста */
+}
+
+nav {
+    text-align: center;
+    background-color: #2B2B33;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Плавное изменение цвета текста при наведении */
+}
+
+nav a:hover {
+    color: #CCCCCC; /* Изменен цвет текста при наведении */
+}
+
+section {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    color: #e0e0e0;
+}
+
+p {
+    line-height: 1.6;
+    color: #CCCCCC;
+}
+
+/* style.css */
