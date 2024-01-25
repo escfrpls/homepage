@@ -144,4 +144,9 @@ hr {
     color: #9999a8;
     padding-top: 10px;
 }
+
+q {
+  font-style: italic;
+}
+
 /* style.css */
