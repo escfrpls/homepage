@@ -148,17 +148,21 @@ hr {
 q {
   font-style: italic;
 }
-photo-container {
-        .photo-container {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo-container img {
     max-width: 150px; /* Уменьшаем максимальную ширину до 150px */
     height: auto; /* Позволяет изображению сохранять пропорции */
     margin-right: 20px;
-        .description {
-            color: #333; /* Цвет текста описания */
-            font-size: 16px; /* Размер текста описания */
-        }
+}
+
+.photo-container .description {
+    color: #333; /* Цвет текста описания */
+    font-size: 16px; /* Размер текста описания */
 }
 /* style.css */
