@@ -148,8 +148,7 @@ hr {
 q {
   font-style: italic;
 }
-
-    style {
+photo-container {
         .photo-container {
             display: flex;
             align-items: center;
@@ -164,5 +163,5 @@ q {
             color: #333; /* Цвет текста описания */
             font-size: 16px; /* Размер текста описания */
         }
-    }
+}
 /* style.css */
