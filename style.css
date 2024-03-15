@@ -166,3 +166,20 @@ q {
     font-size: 16px; /* Размер текста описания */
 }
 /* style.css */
+
+.photo-container_d {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo-container img {
+    max-width: 900px; /* Уменьшаем максимальную ширину до 150px */
+    height: auto; /* Позволяет изображению сохранять пропорции */
+    margin-right: 20px;
+}
+
+.photo-container .description {
+    color: #333; /* Цвет текста описания */
+    font-size: 16px; /* Размер текста описания */
+}
