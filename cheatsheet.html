@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Проекты</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Стилизация ссылок */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #e74c3c;
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
         <div class="avatar-container">
-            <img src="avatar.jpg" alt="Your Name">
+            <img src="avatar.jpg" alt="EscapeFromPolesie">
             <p>EscapeFromPolesie</p>
         </div>
     </header>
 
-      <nav>
+    <nav>
         <a href="#" onclick="loadPage('index.html'); return false;">Home</a>
         <a href="#" onclick="loadPage('desktop.html'); return false;">Desktop</a>
         <a href="#" onclick="loadPage('projects.html'); return false;">Projects</a>
+          <a href="#" onclick="loadPage('cheatsheet.html'); return false;">Cheat sheet</a>
         <a href="#" onclick="loadPage('contact.html'); return false;">Contact</a>
     </nav>
- <section id="content">
+
+    <section id="content">
         <hr>
+        <p>You can find me on the internet at the links below, also note, in case of any questions, I read your e-mail every day.</p>
+        <div class="contact">
+            <p>Email - <a href="mailto:timkaljuta@gmail.com">timkaljuta@gmail.com!!!!!!!!!!!!!!!!!!!!</a></p>
+        </div>
+
+        <div class="contact">
+            <p>Linkedin - <a href="https://www.linkedin.com/in/tymoteusz-kaljuta/" target="_blank">LinkedIn</a></p>
+        </div>
+
+      <div class="contact">
+            <p>GitHub - <a href="https://github.com/escfrpls" target="_blank">GitHub</a></p>
+        </div>
+        
+        <div class="contact">
+            <p>linux.org.ru - <a href="https://www.linux.org.ru/people/Licwin/profile" target="_blank">LOR</a></p>
+        </div>
+     <div class="contact">
+            <p>Matrix - <a href="h@escapefrompolesie:matrix.org" target="_blank">Matrix</a></p>
+        </div>
+    </section>
     </section>
 
-
-
-  
     <script src="script.js"></script>
 </body>
+
 </html>
