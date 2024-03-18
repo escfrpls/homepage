@@ -42,13 +42,21 @@
   <hr>
         <div>
        <details>
-        <summary>Показать информацию</summary>
+        <summary>Docker</summary>
         <p>Здесь может быть ваша дополнительная информация или контент.</p>
-        <p>Например:</p>
         <ul>
-            <li>Инструкции</li>
-            <li>Полезные ссылки</li>
-            <li>Краткое описание</li>
+<ul>
+    <li>create — create a container from a selected image.</li>
+    <li>start — activate an existing container.</li>
+    <li>run — create a new container and immediately start it.</li>
+    <li>ls — list all existing containers.</li>
+    <li>inspect — provide detailed information about the selected container.</li>
+    <li>logs — display logs (event journal) in the console.</li>
+    <li>stop — attempt to stop the selected container by sending it a SIGTERM signal, asking it to terminate all activities and save user data. If it takes too long to respond, it then sends a SIGKILL signal to "kill" the process without saving data.</li>
+    <li>kill — performs the same task as the previous command, but skips the step of sending SIGTERM. Immediately shuts down the container, ignoring the saving of user data.</li>
+    <li>rm — delete the selected container (it must be stopped for the command to work).</li>
+</ul>
+
         </ul>
     </details>
         </div>
